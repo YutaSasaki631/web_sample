@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+header {
+    width: 800px;
+    height: 70px;
+    margin: 20px auto 40px auto;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    position: absolute;
+}
+nav {
+    position: absolute;
+    right: 0;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a:hover {
+    opacity: 0.7;
+}
+footer p {
+	margin-bottom: 0;
+	padding: 14px 0 14px 0;
+	background-color:darkorange;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+footer small {
+    font-size: 100%;
+}
+#main h1 {
+    background-image: url(../images/h4.png);
+    background-repeat: no-repeat;
+    padding: 4px 0 3px 40px;
+    margin; 0 0 20px 0;
+    font-size: 170%;
+}
+/* 基本レイアウト ここまで↑ */
+
+/*「カラオケランキング」ページ ここから↓ *//*「料金プラン」ページ　ここから↓ */
+table{
+	width: 568px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table caption{
+	text-align: left;
+}
+table th, table td{
+	border: 1px solid #7aa7a2;
+	padding: 10px;
+	width: 190px;
+	text-align: center;
+}
+table th{
+	background-color: darkorange;
+}
+/*「カラオケランキング」ページ　ここまで↑ *//*「料金プラン」ページ　ここまで↑ */
+
+/*「お店長様ご挨拶」ページ　ここから↓ */
+img.float_right {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	float: right;
+}
+.float_clear {
+	clear: both;
+}
+article ul {
+	list-style-type: circle;
+}
+/*「お店長様ご挨拶」ページ　ここまで↑ */
+
+/*「ご意見・ご要望」ページ　ここから↓ */
+form {
+    margin-top: 30px;
+}
+input.textfield,textarea {
+    border: 1px solid #d1ccb4;
+}
+input.textfield {
+    width: 250px;
+}
+textarea {
+    width: 500px;
+    height: 170px;
+    overflow-y: scroll;
+}
+/* 「ご意見・ご要望」ページ　ここまで↑ */
